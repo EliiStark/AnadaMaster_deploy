@@ -8,7 +8,7 @@ const { handleHttpError } = require('../utils/handleHttpError.js')
  * @param {*} res 
  */
 
-//hola holi hola
+//hola holi hola holiwis
 const getBarrels = async (req, res) => {
     try{
         const data = await barrelModel.find().lean() //las llaves {} vacías significa que me coja todo
